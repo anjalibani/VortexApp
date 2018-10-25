@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private void initUi() {
 
-        auth = FirebaseAuth.getInstance();
+        auth =   FirebaseAuth.getInstance();
 
         txtRegister = (TextView) findViewById(R.id.txtRegister);
         txtLogin = (TextView) findViewById(R.id.txtLogin);
