@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vortexappbg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/_10sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/leftarrow" />
+
+        <TextView
+            android:id="@+id/headertitletextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Message"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/profilell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/_10sdp"
+
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgEdit"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_gravity="right|bottom"
+                        android:paddingLeft="@dimen/_8sdp"
+                        android:src="@drawable/editicon" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgProfile"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:src="@drawable/largeplcholder"
+                        app:civ_border_color="@color/light_gray"
+                        app:civ_border_width="0dp" />
+
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="Simonia Gelvin"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@drawable/small_rounded_corner_white"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp">
+
+
+                <EditText
+                    android:id="@+id/edtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+                    android:drawableLeft="@drawable/smallprofile"
+                    android:drawablePadding="@dimen/_18sdp"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_16sdp" />
+
+
+                <EditText
+                    android:id="@+id/edtDateofbirth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/calendar"
+                    android:drawablePadding="@dimen/_18sdp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Date of birth"
+                    android:inputType="date"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_16sdp" />
+
+
+                <EditText
+                    android:id="@+id/edtGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/gendersmall"
+                    android:drawablePadding="@dimen/_18sdp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Gender"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_16sdp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txtSave"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/rounded_corner_white"
+                android:gravity="center"
+                android:text="Save"
+                android:textColor="@color/silver"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtChangepassword"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/rounded_corner_white"
+                android:gravity="center"
+                android:text="@string/change_password"
+                android:textColor="@color/silver"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLogout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/rounded_corner_white"
+                android:gravity="center"
+                android:text="@string/logout"
+                android:textColor="@color/silver"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customdialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:minWidth="@dimen/_300sdp"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp">
+
+    <ListView
+        android:id="@+id/dialogNationality_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+</LinearLayout>

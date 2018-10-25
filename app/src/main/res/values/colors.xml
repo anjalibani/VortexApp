@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFBFEFFA</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="vortexcolor">#FFBFEFFA</color>
+    <color name="transparentBlack">#48000000</color>
+    <color name="transparentdarkBlack">#FF3D4145</color>
+
+    <!-- ONBOARDING -->
+    <color name="indicator_unselected">#4D000000</color>
+    <color name="theme">#73dcf4</color>
+    <color name="header">#FF8ACCE6</color>
+
+    <color name="lightBlue">#03A9F4</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFFF79A</color>
+    <color name="fuchsia">#FFFF516E</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#FF58FFB6</color>
+    <color name="lime">#4dc939</color>
+    <color name="light_green">#FF06E860</color>
+
+    <color name="teal">#008080</color>
+    <color name="green">#FF6FA908</color>
+    <color name="nav_hadertopgreen">#FF4E9C26</color>
+    <color name="nav_down_green">#FF6FA908</color>
+    <color name="black">#000000</color>
+    <color name="lightblack">#333333</color>
+    <color name="TextColour">#4f80bc</color>
+    <color name="btn_skip">#715AD1</color>
+    <color name="btn_finish">#F9C401</color>
+    <color name="selected_indicator">#7799ED</color>
+    <color name="register">#1F367F</color>
+    <color name="btn">#B92634</color>
+
+    <color name="baktohome">#F9C401</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_gray">#aaaaaa</color>
+    <color name="color_eee">#eeeeee</color>
+    <color name="color_ddd">#dddddd</color>
+    <color name="color_ccc">#cccccc</color>
+    <color name="color_bbb">#bbbbbb</color>
+    <color name="color_aaa">#aaaaaa</color>
+    <color name="color_99">#999999</color>
+    <color name="color_88">#888888</color>
+    <color name="color_77">#777777</color>
+    <color name="color_66">#666666</color>
+    <color name="color_55">#555555</color>
+    <color name="color_44">#444444</color>
+    <color name="color_33">#333333</color>
+    <color name="color_22">#222222</color>
+    <color name="color_11">#111111</color>
+    <color name="orange">#FF4500</color>
+    <color name="btn_color">#B92634</color>
+    <color name="button_color">#ff786a</color>
+    <color name="green_r">#FF6FA908</color>
+    <color name="stubus_header_dark_gray">#FF2C3136</color>
+    <color name="stubus_background_black">#FF24272A</color>
+    <color name="back_btn">#FFFFF333</color>
+
+</resources>
